@@ -1,0 +1,117 @@
+.service-section {
+    text-align: center;
+    padding: 50px;
+    background: linear-gradient(135deg, #f9f9f9, #eaeaea);
+    color: #333;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.section-description {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+    color: #555;
+}
+
+.services-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.service-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.service-icon {
+    font-size: 3rem;
+    color: #4a90e2;
+    margin-bottom: 15px;
+}
+
+.service-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.service-card p {
+    font-size: 1rem;
+    color: #777;
+    line-height: 1.5;
+}
+
+.service-section {
+    text-align: center;
+    padding: 50px;
+    background: linear-gradient(135deg, #f9f9f9, #eaeaea);
+    color: #333;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.section-description {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+    color: #555;
+}
+
+.services-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.service-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.service-icon {
+    font-size: 3rem;
+    color: #4a90e2;
+    margin-bottom: 15px;
+}
+
+.service-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.service-card p {
+    font-size: 1rem;
+    color: #777;
+    line-height: 1.5;
+}

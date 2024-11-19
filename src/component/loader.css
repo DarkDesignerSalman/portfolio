@@ -1,0 +1,65 @@
+/* Full screen loader with gradient background */
+.bounce-loader-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #00c6ff, #0072ff);
+    /* Gradient background */
+    z-index: 9999;
+}
+
+/* Bouncing loader */
+.bounce-loader {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    animation: bounce 1.5s ease-in-out infinite, colorChange 1.5s ease-in-out infinite;
+}
+
+/* Bouncing effect */
+@keyframes bounce {
+
+    0%,
+    100% {
+        transform: translateY(0);
+        /* Start and end at the top position */
+    }
+
+    50% {
+        transform: translateY(-20px);
+        /* Bounce up */
+    }
+}
+
+/* Multi-color effect */
+@keyframes colorChange {
+    0% {
+        background-color: #ff5733;
+        /* Red */
+    }
+
+    25% {
+        background-color: #33ff57;
+        /* Green */
+    }
+
+    50% {
+        background-color: #3357ff;
+        /* Blue */
+    }
+
+    75% {
+        background-color: #f7ff33;
+        /* Yellow */
+    }
+
+    100% {
+        background-color: #ff33a8;
+        /* Pink */
+    }
+}
