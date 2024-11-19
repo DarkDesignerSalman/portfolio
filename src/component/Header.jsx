@@ -50,7 +50,7 @@ const Headers = () => {
             Projects
           </NavLink>
           <NavLink
-            to="/contact"
+            to="./contact"
             className={({ isActive }) => (isActive ? "active" : "")}
           >
             Contact

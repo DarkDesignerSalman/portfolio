@@ -5,6 +5,7 @@ import Skills from "./Skills";
 import Projects from "./Projects";
 import Slider from "./Slider";
 import Footer from "./Footer";
+import Contact from "./Contact";
 
 export default function AllComponent() {
   return (
@@ -13,6 +14,7 @@ export default function AllComponent() {
       <About />
       <Skills />
       <Projects />
+      <Contact />
     </div>
   );
 }
