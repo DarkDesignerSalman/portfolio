@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { FaFacebookF, FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
 import "./header.css";
 import { NavLink } from "react-router-dom";
+import logo from "../public/logo-p.png";
 
 const Headers = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -14,7 +15,7 @@ const Headers = () => {
       <header>
         <div>
           <NavLink to="/" className="logo">
-            <img src="/logo-p.png" alt="MyLogo" className="logo-img" />
+            <img src={logo} alt="MyLogo" className="logo-img" />
             <span>Designer Salman</span>
           </NavLink>
         </div>

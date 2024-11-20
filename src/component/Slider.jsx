@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Carousel from "react-bootstrap/Carousel";
-import "./header.css"; // Make sure this contains the styles you need
+import "./header.css";
+import SliderImg from "../public/slider.png";
 
 export default function Slider() {
   // State to hold current time
@@ -20,7 +21,6 @@ export default function Slider() {
 
   // Define the image and caption for the single slide
   const slide = {
-    image: "./slider.png",
     alt: "Graphic Design",
     caption: `Md Salman Islam is a skilled graphic and website designer with 5
             years of experience in graphic design and 3 years in web design.
@@ -36,7 +36,7 @@ export default function Slider() {
     <Carousel data-bs-theme="dark" controls={false}>
       <Carousel.Item>
         <div className="carousel-slide-container">
-          <img className="d-block w-50" src={slide.image} alt={slide.alt} />
+          <img className="d-block w-50" src={SliderImg} alt={slide.alt} />
           <div className="carousel-text-overlay">
             <h5 className="caption">{slide.caption}</h5>
           </div>

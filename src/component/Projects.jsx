@@ -1,27 +1,39 @@
 import React, { useState } from "react";
 import ReactPlayer from "react-player";
 import "./projects.css";
+import ImgOne from "../public/project-01.png";
+import ImgTwo from "../public/project-02.png";
+import ImgThree from "../public/project-03.png";
+import ImgFour from "../public/project-04.png";
+import GraphImgOne from "../public/logo-01.jpg";
+import GraphImgTwo from "../public/logo-02.jpg";
+import GraphImgThree from "../public/logo-03.jpg";
+import GraphImgFour from "../public/logo-04.jpg";
+import VideoImgOne from "../public/text-effect.png";
+import VideoImgTwo from "../public/3d-cube.png";
+import VideoImgThree from "../public/dynamicsoft.png";
+import VideoImgFour from "../public/dynamicerp.png";
 
 export default function Projects() {
   const projectData = [
     {
       title: "Dyamic Megasoft Limited",
-      image: "./project-01.png",
+      image: ImgOne,
       link: "https://dynamicmegasoft.com/",
     },
     {
       title: "Dynamic ERP",
-      image: "./project-02.png",
+      image: ImgTwo,
       link: "https://www.dynamicerp.us/",
     },
     {
       title: "dynamic Cloud",
-      image: "./project-03.png",
+      image: ImgThree,
       link: "https://www.dynamiccloud.us/",
     },
     {
       title: "dynamic Soft",
-      image: "./project-04.png",
+      image: ImgFour,
       link: "https://dynamicsoft.us/",
     },
   ];
@@ -29,22 +41,22 @@ export default function Projects() {
   const graphicData = [
     {
       title: "Epic Enimal Momemt logo",
-      image: "./logo-01.jpg",
+      image: GraphImgOne,
       link: "https://dribbble.com/shots/14030749-Basketball-Logov",
     },
     {
       title: "Music-poster-design",
-      image: "./logo-02.jpg",
+      image: GraphImgTwo,
       link: "https://dribbble.com/shots/19322812-Music-poster-design",
     },
     {
       title: "Epic Enimal logo",
-      image: "./logo-03.jpg",
+      image: GraphImgThree,
       link: "https://dribbble.com/shots/15328990-love-bird-logo-design",
     },
     {
       title: "Corporate-Banner-Design",
-      image: "./logo-04.jpg",
+      image: GraphImgFour,
       link: "https://dribbble.com/shots/19322480-Corporate-Banner-Design",
     },
   ];
@@ -53,22 +65,22 @@ export default function Projects() {
     {
       title: "Text Effect Project",
       videoLink: "https://youtu.be/1aFCxAN9G5A",
-      thumbnail: "./text-effect.png",
+      thumbnail: VideoImgOne,
     },
     {
       title: "3D Cube Project",
       videoLink: "https://youtu.be/m-GMfdsCA7Iv",
-      thumbnail: "./3d-cube.png",
+      thumbnail: VideoImgTwo,
     },
     {
       title: "DynamicSoft Project",
       videoLink: "https://youtu.be/U5sXhps7IVQ",
-      thumbnail: "./dynamicsoft.png",
+      thumbnail: VideoImgThree,
     },
     {
       title: "DynnamicERP Project",
       videoLink: "https://youtu.be/a9cCLH0Ug2E",
-      thumbnail: "./dynamicerp.png",
+      thumbnail: VideoImgFour,
     },
   ];
 

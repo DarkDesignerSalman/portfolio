@@ -1,6 +1,7 @@
 import React from "react";
 import "./workexperience.css";
 import "./about.css";
+import WorkImg from "../public/about.jpg";
 
 export default function WorkExperience() {
   return (
@@ -9,11 +10,7 @@ export default function WorkExperience() {
         <h2 className="about-header animated-header">About Me</h2>
         <div className="about-container">
           <div className="about-image">
-            <img
-              src="./about.jpg"
-              alt="Md Salman Islam"
-              className="about-img"
-            />
+            <img src={WorkImg} alt="Md Salman Islam" className="about-img" />
           </div>
           <div className="about-text">
             <p>
