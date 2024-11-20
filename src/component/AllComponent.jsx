@@ -6,15 +6,16 @@ import Projects from "./Projects";
 import Slider from "./Slider";
 import Footer from "./Footer";
 import Contact from "./Contact";
+import ServiceMain from "./ServiceMain";
 
 export default function AllComponent() {
   return (
     <div>
       <Slider />
+      <ServiceMain />
       <About />
       <Skills />
       <Projects />
-      <Contact />
     </div>
   );
 }

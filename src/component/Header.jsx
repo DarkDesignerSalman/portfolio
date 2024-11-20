@@ -32,7 +32,7 @@ const Headers = () => {
             Home
           </NavLink>
           <NavLink
-            to="./about"
+            to="./work-experience"
             className={({ isActive }) => (isActive ? "active" : "")}
           >
             About
@@ -59,20 +59,24 @@ const Headers = () => {
 
         <div className="social-icons">
           <a
-            href="https://facebook.com"
+            href="https://www.facebook.com/profile.php?id=100088509691215"
             target="_blank"
             rel="noopener noreferrer"
           >
             <FaFacebookF />
           </a>
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/salmanislam/"
             target="_blank"
             rel="noopener noreferrer"
           >
             <FaLinkedinIn />
           </a>
-          <a href="https://wa.me" target="_blank" rel="noopener noreferrer">
+          <a
+            href="https://wa.me/<+8801681412690>"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FaWhatsapp />
           </a>
         </div>
